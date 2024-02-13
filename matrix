@@ -54,3 +54,47 @@ class AddMatrix
 
     }
 }
+
+
+
+
+
+output
+C:\Users\mlm\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\lib\idea_rt.jar=50933:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\mlm\IdeaProjects\hello world\out\production\hello world" AddMatrix
+Enter the number of rows
+3
+Enter the number columns
+3
+Enter the elements of matrix1
+2
+3
+4
+
+5
+6
+7
+
+8
+9
+5
+
+Enter the elements of matrix2
+4
+5
+3
+
+2
+1
+2
+
+3
+4
+4
+
+Sum of matrices:-
+6	8	7	
+7	7	9	
+11	13	9	
+
+Process finished with exit code 0
+
