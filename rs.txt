@@ -1,0 +1,20 @@
+class rs
+{
+    public static void main(String[] args)
+    {
+        String s1="Today is monday";
+        System.out.println("String is: "+s1);
+        String s2=s1.replace("is","=");
+        System.out.println(s2);
+
+    }
+}
+
+
+output
+
+C:\Users\mlm\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\lib\idea_rt.jar=58315:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mlm\IdeaProjects\untitled2\out\production\untitled2 rs
+String is: Today is monday
+Today = monday
+
+Process finished with exit code 0
