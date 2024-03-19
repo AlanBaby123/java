@@ -1,0 +1,24 @@
+class string3
+{
+    public static void main(String args[])
+    {
+        String str="HELLO";
+        String toCheckstr="HELLO";
+        if(str.startsWith(toCheckstr))
+        {
+            System.out.println("The string does start with "+toCheckstr);
+
+        }
+        else
+        {
+            System.out.println("The string does not start with "+toCheckstr);
+        }
+    }
+}
+
+output
+C:\Users\mlm\.jdks\openjdk-21.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\lib\idea_rt.jar=58859:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\mlm\IdeaProjects\untitled2\out\production\untitled2 string3
+The string does start with HELLO
+
+Process finished with exit code 0
+
